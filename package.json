@@ -4,7 +4,7 @@
   "description": "A small URL shortener service.",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "mocha ."
   },
   "repository": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/yanke-guo/izero",
   "dependencies": {
+    "body-parser": "^1.10.0",
     "express": "^4.10.6",
     "pg": "^4.1.1"
   }
