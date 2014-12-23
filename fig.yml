@@ -1,0 +1,8 @@
+web:
+  build: .
+  links:
+    - postgres
+  ports:
+    - '3000:3000'
+postgres:
+  image: postgres:9.4
