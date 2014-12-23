@@ -1,0 +1,28 @@
+{
+  "name": "izero",
+  "version": "1.0.0",
+  "description": "A small URL shortener service.",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "mocha ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanke-guo/izero.git"
+  },
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "author": "YANKE Guo <hi@yanke.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanke-guo/izero/issues"
+  },
+  "homepage": "https://github.com/yanke-guo/izero",
+  "dependencies": {
+    "express": "^4.10.6",
+    "pg": "^4.1.1"
+  }
+}
