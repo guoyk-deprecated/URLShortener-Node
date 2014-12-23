@@ -8,3 +8,6 @@ postgres:
   image: postgres:9.4
   volumes:
     - /data/pg:/var/lib/postgresql/data
+  environment:
+    POSTGRES_PASSWORD: somepassword
+    POSTGRES_USER: iszero
