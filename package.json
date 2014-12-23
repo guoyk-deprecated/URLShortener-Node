@@ -4,8 +4,6 @@
   "description": "A small URL shortener service.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "mocha ."
   },
   "repository": {
     "type": "git",
