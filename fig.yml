@@ -3,7 +3,7 @@ web:
   links:
     - postgres
   ports:
-    - '3000:3000'
+    - '80:3000'
 postgres:
   image: postgres:9.4
   volumes:
