@@ -6,3 +6,5 @@ web:
     - '3000:3000'
 postgres:
   image: postgres:9.4
+  volumes:
+    - /data/pg:/var/lib/postgresql/data
